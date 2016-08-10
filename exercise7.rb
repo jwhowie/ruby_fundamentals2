@@ -10,7 +10,7 @@ students[:cohort4] = 43
 
 puts students.keys
 
-students.each {|key, value| students[key] = value += (value * 0.05).round(2)}
+students.each {|key, value| students[key] = value += (value * 0.05).round(0)}
 
 students.each { |key, value| puts "#{key}: #{value} students"  }
 
