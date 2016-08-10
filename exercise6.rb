@@ -23,7 +23,7 @@ puts "The second item in the list is #{grocery_list[1]}"
 
 print_list(grocery_list.sort)
 
-puts "Can\'t find salmon removing it from the list"
+puts "Can't find salmon removing it from the list"
 
 grocery_list.delete("salmon")
 
